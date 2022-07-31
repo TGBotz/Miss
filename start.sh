@@ -4,9 +4,9 @@ then
   git clone https://github.com/TGBotz/MissNora /MissNora
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /MissNora
+  git clone $UPSTREAM_REPO /Miss
 fi
-cd /MissNora
+cd /Miss
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
