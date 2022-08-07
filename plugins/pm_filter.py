@@ -642,7 +642,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[@ᴾᵉⁿᴹᵒᵛᶦᵉᴴᴰ] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"[@𝐏𝐞𝐧𝐌𝐨𝐯𝐢𝐞𝐇𝐃] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
