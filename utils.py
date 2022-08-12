@@ -202,6 +202,7 @@ def get_file_id(msg: Message):
             "photo",
             "animation",
             "audio",
+            "text",
             "document",
             "video",
             "video_note",
